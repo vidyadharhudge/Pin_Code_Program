@@ -16,5 +16,5 @@ function Check_Pattern()
 }
 
 #user input and passing the parameter
-read -p "Enter The Pincode" Pincode
+read -p "Enter The Pincode : " Pincode
 Check_Pattern $Pincode $PINCODEPATTERN
